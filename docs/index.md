@@ -22,3 +22,5 @@
 - Perform the queries using join, merging and grouping logics expected query outcome has arrived. 
 - Using the Query Outcome, Dataframe has been performed and created the charts using the ggplot and lets-plot library.
 
+
+![](figures/actors_played_more_than_one_movie_bar_chart.png)
