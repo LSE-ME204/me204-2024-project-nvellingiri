@@ -9,9 +9,9 @@ This project analyzes the top 97 movies according to Rotten Tomatoes. The analys
 
 ## Data Collection
 
-The data was collected from the source 
+The data was collected from the below source 
 
-"https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" sources 
+https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/ 
 
 and compiled into three CSV files:
 - `actors_list.csv`: Contains the list of actors with their IDs.
