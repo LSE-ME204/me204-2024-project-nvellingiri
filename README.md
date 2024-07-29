@@ -108,10 +108,7 @@ To replicate the analysis:
 - **tweepy**: For interacting with the Twitter API.
 
 ## 6. Data Visualization
-- **matplotlib**: For basic plotting.
-- **seaborn**: For statistical data visualization.
-- **plotly**: For interactive plots.
-- **bokeh**: For interactive visualizations.
+- **lets-plot**: For interactive plots.
 
 ## 7. Data Serialization and File Formats
 - **json**: For JSON file handling.
