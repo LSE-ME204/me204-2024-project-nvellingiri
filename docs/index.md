@@ -30,7 +30,7 @@ The Rotten Tomatoes ratings for the top 97 movies were analyzed to understand th
 
 The distribution of the years of release for the top 97 movies shows how the spread of top-rated movies spans different decades:
 
-![Year of Release Distribution](docs/figures/year_wise_number_of_movies_released_bar_chart.png)
+![Year of Release Distribution](figures/year_wise_number_of_movies_released_bar_chart.png)
 
 ### 3. Actor Analysis
 
@@ -39,7 +39,7 @@ An analysis of the actors appearing in the top 97 movies reveals interesting pat
 - **Total Unique Actors:** 340
 - **Most Frequent Actor:** Shirley MacLaine, Dustin Hoffman, Morgan Freeman, Clark Gable and Jack Nicholson (appeared in 3 movies)
 
-![Most Frequent Actors](docs/figures/Most_Frequent_Actors.png)
+![Most Frequent Actors](figures/Most_Frequent_Actors.png)
 
 ### 4. Top 10 Movies
 
