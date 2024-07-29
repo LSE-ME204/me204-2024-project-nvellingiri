@@ -9,11 +9,7 @@ This project analyzes the top 97 movies according to Rotten Tomatoes. The analys
 
 ## Data Collection
 
-The data was collected from the below source 
-
-https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/ 
-
-and compiled into three CSV files:
+The data was collected from various sources and compiled into three CSV files:
 - `actors_list.csv`: Contains the list of actors with their IDs.
 - `top_mov_actors.csv`: Contains the mapping of movies to actors.
 - `top_movie.csv`: Contains the details of the top movies including their ranks, titles, release years, and ratings.
@@ -22,19 +18,45 @@ and compiled into three CSV files:
 
 ### 1. Distribution of Ratings
 
-The Rotten Tomatoes ratings for the top 97 movies were analyzed to understand their distribution
+The Rotten Tomatoes ratings for the top 97 movies were analyzed to understand their distribution. Below is a summary of the key statistics:
+
+- **Mean Rating:** 88.76%
+- **Median Rating:** 92.00%
+- **Standard Deviation:** 10.59%
+- **Minimum Rating:** 42%
+- **Maximum Rating:** 99%
 
 ### 2. Year of Release Analysis
 
-The distribution of the years of release for the top 97 movies shows how the spread of top-rated movies spans different years
+The distribution of the years of release for the top 97 movies shows how the spread of top-rated movies spans different decades:
+
+![Year of Release Distribution](docs/figures/year_wise_number_of_movies_released_bar_chart.png)
 
 ### 3. Actor Analysis
 
-An analysis of the actors appearing in the top 97 movies reveals interesting patterns.
+An analysis of the actors appearing in the top 97 movies reveals interesting patterns. Here are some key statistics:
+
+- **Total Unique Actors:** 340
+- **Most Frequent Actor:** Shirley MacLaine, Dustin Hoffman, Morgan Freeman, Clark Gable and Jack Nicholson (appeared in 3 movies)
+
+![Most Frequent Actors](docs/figures/Most_Frequent_Actors.png)
 
 ### 4. Top 10 Movies
 
-Listing of top 10 movies from the list, along with their Rotten Tomatoes ratings
+Here are the top 10 movies from the list, along with their Rotten Tomatoes ratings:
+
+| Rank | Title                          | Year | Rating |
+|------|--------------------------------|------|--------|
+| #1   | Parasite                       | 2019 | 99%    |
+| #2   | Casablanca                     | 1942 | 99%    |
+| #3   | All About Eve                  | 1950 | 99%    |
+| #4   | On the Waterfront              | 1954 | 99%    |
+| #5   | Moonlight                      | 2016 | 98%    |
+| #6   | Schindler's List               | 1993 | 98%    |
+| #7   | It Happened One Night          | 1934 | 98%    |
+| #8   | Rebecca                        | 1940 | 98%    |
+| #9   | All Quiet on the Western Front | 1930 | 98%    |
+| #10  | Sunrise                        | 1927 | 98%    |
 
 ## Conclusion
 
