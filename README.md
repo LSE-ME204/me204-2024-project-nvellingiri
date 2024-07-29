@@ -77,3 +77,81 @@ To replicate the analysis:
 3. Run the data collection and analysis scripts as per the instructions in the `README.md` file.
 
 
+# Software Requirements
+
+## 1. Python
+- Ensure Python 3.x is installed. Python 3.8 or later is recommended.
+
+## 2. Package Management
+- **pip**: Python’s package installer.
+- **virtualenv**: To create isolated Python environments.
+- **conda**: An alternative to virtualenv, comes with Anaconda distribution.
+
+## 3. Data Handling and Analysis Libraries
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical computing.
+- **dask**: For parallel computing with larger-than-memory datasets.
+- **polars**: A fast DataFrame library written in Rust, useful for performance-sensitive data manipulation.
+
+## 4. Database Connectivity
+- **SQLAlchemy**: For SQL database interaction.
+- **psycopg2**: PostgreSQL adapter for Python.
+- **pymysql**: MySQL connector for Python.
+- **sqlite3**: SQLite database library included with Python.
+- **pyodbc**: For connecting to various databases via ODBC.
+
+## 5. Web Scraping and API Interaction
+- **requests**: For making HTTP requests.
+- **BeautifulSoup**: For parsing HTML and XML.
+- **Scrapy**: A web scraping framework.
+- **Selenium**: For web scraping with browser automation.
+- **tweepy**: For interacting with the Twitter API.
+
+## 6. Data Visualization
+- **matplotlib**: For basic plotting.
+- **seaborn**: For statistical data visualization.
+- **plotly**: For interactive plots.
+- **bokeh**: For interactive visualizations.
+
+## 7. Data Serialization and File Formats
+- **json**: For JSON file handling.
+- **csv**: For CSV file handling.
+
+## 8. Development Tools
+- **VS Code**: A powerful code editor with Python support.
+- **PyCharm**: A popular Python IDE.
+
+## 9. Version Control
+- **Git**: Version control system.
+- **GitHub/GitLab/Bitbucket**: Hosting services for Git repositories.
+
+## Installation Instructions
+1. **Python Installation**:
+    - Install the latest version of Python from [python.org](https://www.python.org/).
+    - Verify installation: `python --version` or `python3 --version`.
+
+2. **Package Installation**:
+    - Use `pip` to install necessary packages:
+      ```bash
+      pip install pandas numpy dask polars sqlalchemy psycopg2 pymysql requests beautifulsoup4 scrapy selenium tweepy pyspark matplotlib seaborn plotly bokeh pyarrow fastparquet h5py airflow luigi prefect jupyterlab
+      ```
+    - Alternatively, use `conda`:
+      ```bash
+      conda install pandas numpy dask polars sqlalchemy psycopg2 pymysql requests beautifulsoup4 scrapy selenium tweepy pyspark matplotlib seaborn plotly bokeh pyarrow fastparquet h5py airflow luigi prefect jupyterlab
+      ```
+
+3. **Setting up Virtual Environment**:
+    - Using `virtualenv`:
+      ```bash
+      pip install virtualenv
+      virtualenv venv
+      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+      ```
+    - Using `conda`:
+      ```bash
+      conda create --name myenv
+      conda activate myenv
+      ```
+
+
+
